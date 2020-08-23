@@ -81,6 +81,13 @@
 	}
 }
 
+@media (max-width: 780px) {
+	.portfolio-describe-item {
+		&__image {
+			margin: 10px -15px;
+		}
+	}
+}
 
 @media (max-width: 760px) {
 	.portfolio-describe-item {
@@ -98,10 +105,6 @@
 				width: 300px;
 				padding: 0 25px;
 			}
-		}
-
-		&__image {
-			margin: 10px -15px;
 		}
 
 		&__organic-food-website-development-background-1 {
