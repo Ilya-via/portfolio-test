@@ -1,0 +1,157 @@
+// Другая страница с блоками новостей BEGIN
+.portfolio-describe-item {
+	padding: 0 15px;
+
+	h1,
+	h2 {
+		font-family: "RalewayBold";
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 30px;
+		line-height: 38px;
+		color: #39163A;
+	}
+
+	h1+p {
+		text-align: center;
+		font-family: "RalewayRegular";
+		font-size: 24px;
+		line-height: 38px;
+		color: #39163A;
+	}
+
+	h2 {
+		margin-top: 25px;
+		font-size: 24px;
+		line-height: 26px;
+		color: #56295A;
+	}
+
+	&__text {
+		margin: 15px 0 30px;
+		font-family: "RalewayRegular";
+		font-size: 14px;
+		line-height: 24px;
+		text-align: center;
+		color: #000000;
+	}
+	&__image {
+		box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+		margin: 10px 0;
+		border-radius: 5px;
+	}
+	&__container-for-buttons {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 135px;
+
+		a {
+			position: relative;
+			display: block;
+			width: 500px;
+			height: 40px;
+			background: #FFFFFF;
+			border: 1px solid #56295A;
+			box-sizing: border-box;
+			border-radius: 50px;
+
+			font-family: "RalewayRegular";
+			font-size: 16px;
+			line-height: 19px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #56295A;
+		}
+
+		.portfolio-describe-item__arrow-left,
+		.portfolio-describe-item__arrow-right {
+			display: block;
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background: url(../styles/images/describeItems/vector-arrow.svg) no-repeat center center;
+		}
+
+		.portfolio-describe-item__arrow-left {
+			left: 20px;
+		}
+
+		.portfolio-describe-item__arrow-right {
+			right: 20px;
+			transform: rotate(180deg);
+		}
+
+	
+	}
+
+	&__organic-food-website-development-background-1 {
+		background: url(../styles/images/describeItems/organic-food-website-development/banner-2.png) no-repeat center center;
+		height: 550px;
+	}
+
+	&__organic-food-website-development-background-2 {
+		background: url(../styles/images/describeItems/organic-food-website-development/color_img.png) no-repeat center center;
+		height: 656px;
+	}
+
+	&__organic-food-website-development-background-3 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_why_are_we.png) no-repeat center center;
+		height: 676px;
+	}
+
+	&__organic-food-website-development-background-4 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_catalog.png) no-repeat center center;
+		height: 1905px;
+	}
+
+	&__organic-food-website-development-background-5 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_FAQ.png) no-repeat center center;
+		height: 1045px;
+	}
+
+	&__organic-food-website-development-background-6 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_reviews.png) no-repeat center center;
+		height: 1003px;
+	}
+
+	&__organic-food-website-development-background-7 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_feedback_form.png) no-repeat center center;
+		height: 859px;
+	}
+
+	&__organic-food-website-development-background-8 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_basket1.png) no-repeat center center;
+		height: 800px;
+	}
+
+	&__organic-food-website-development-background-9 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_basket2.png) no-repeat center center;
+		height: 1150px;
+	}
+
+	&__organic-food-website-development-background-10 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_basket3.png) no-repeat center center;
+		height: 685px;
+	}
+
+	&__organic-food-website-development-background-11 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_pop_up.png) no-repeat center center;
+		height: 1268px;
+	}
+
+	&__organic-food-website-development-background-12 {
+		background: url(../styles/images/describeItems/organic-food-website-development/image_food_blog.png) no-repeat center center;
+		height: 950px;
+	}
+
+	&__organic-food-website-development-background-13 {
+		background: url(../styles/images/describeItems/organic-food-website-development/preview12.png) no-repeat center center;
+		height: 1000px;
+	}
+}
+
+// Другая страница с блоками новостей END

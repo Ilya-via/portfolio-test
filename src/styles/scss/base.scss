@@ -1,0 +1,127 @@
+@font-face {
+	font-family: "RalewayItalic";
+	src: url("styles/fonts/RalewayItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayRegular";
+	src: url("styles/fonts/RalewayRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayBold";
+	src: url("styles/fonts/RalewayBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+a {
+	font-feature-settings: 'pnum'on, 'lnum'on;
+}
+
+.first-place-in-list {
+	order: -1;
+}
+
+.container__hd {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container__fhd {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.unvisible {
+	display: none !important;
+}
+
+.opacityNone {
+	opacity: 0;
+}
+
+strong {
+	color: #56295A;
+	font-family: "RalewayBold";
+}
+
+.describe__way {
+	margin: 35px 0;
+	font-family: 'RalewayRegular';
+	font-size: 14px;
+	line-height: 16px;
+
+	a {
+		text-decoration: none;
+		color: #000000;
+	}
+}
+
+.portfolio {
+
+	.paginator-container,
+	.paginator-container-phone {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 55px 0;
+
+		ul {
+			display: flex;
+			align-items: center;
+		}
+
+		li {
+			margin: 5px 8px;
+		}
+
+		a {
+			display: inline-block;
+			font-family: "RalewayRegular";
+			font-size: 18px;
+			line-height: 20px;
+			color: #56295A;
+			text-decoration: none;
+		}
+
+		.active {
+			font-family: "RalewayBold";
+		}
+
+		.arrow-prev,
+		.arrow-next {
+			background: url(../styles/images/icons/paginator_arrow_default.svg) no-repeat center center;
+			background-position: center center;
+			background-size: contain;
+			width: 10px;
+			height: 10px;
+		}
+
+		.arrow-next {
+			transform: rotate(180deg);
+		}
+
+		.arrow-prev.disabled,
+		.arrow-next.disabled {
+			background: url(../styles/images/icons/paginator_arrow_disabled.svg) no-repeat center center;
+			background-position: center center;
+			background-size: contain;
+		}
+
+		.arrow-prev:hover,
+		.arrow-next:hover {
+			background: url(../styles/images/icons/paginator_arrow_hover.svg) no-repeat center center;
+			background-position: center center;
+			background-size: contain;
+		}
+	}
+}

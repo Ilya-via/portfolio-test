@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+	.portfolio {
+		&__container-for-item {
+			width: 432px;
+			height: 444px;
+		}
+
+		&__container-for-image {
+			width: 432px;
+			height: 360px;
+		}
+
+		&__item {
+			width: 432px;
+			height: 360px;
+		}
+
+		&__container-describe {
+			width: 432px;
+			height: 50px;
+
+			.portfolio__item-caption {
+				font-family: "RalewayBold";
+				font-size: 24px;
+				line-height: 24px;
+				margin-bottom: 10px;
+			}
+
+			.portfolio__item-describe {
+				color: #282828;
+			}
+
+			.portfolio__item-more {
+				color: #56295A;
+				text-decoration-line: underline;
+			}
+
+			.portfolio__item-describe,
+			.portfolio__item-more {
+				font-family: "RalewayRegular";
+				font-size: 18px;
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.portfolio {
+		h1 {
+			font-size: 24px;
+			line-height: 38px;
+			margin: 30px auto;
+		}
+		.paginator-container {
+			margin: 35px 0;
+
+			a {
+				font-size: 16px;
+			}
+		}
+
+		&__container-for-item {
+			width: 360px;
+			height: 370px;
+			margin: 0 20px 50px 20px;
+		}
+
+		&__container-for-image {
+			width: 360px;
+			height: 300px;
+		}
+
+		&__item {
+			width: 360px;
+			height: 300px;
+		}
+
+		&__container-describe {
+			width: 360px;
+			height: 50px;
+		}
+	}
+}
+
+@media (max-width: 825px) {
+	.portfolio {
+		&__container-for-item {
+			margin: 0 10px 50px 10px;
+		}
+	}
+}
+
+@media (max-width: 780px) {
+	.portfolio {
+		&__container-for-item {
+			margin: 0 5px 50px 5px;
+		}
+	}
+}
+
+@media (max-width: 750px) {
+	.portfolio {
+		&__container-items {
+			flex-flow: column;
+			align-items: center;
+		}
+		&__container-for-filter {
+			margin: 0 0 30px;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.portfolio {
+
+		.paginator-container {
+			margin: 0 0 35px 0;
+		}
+
+		&__container-for-item {
+			width: 300px;
+			height: 360px;
+			margin: 0 0 60px 0;
+		}
+
+		&__container-for-image {
+			width: 300px;
+			height: 285px;
+		}
+
+		&__item {
+			width: 300px;
+			height: 285px;
+		}
+
+		&__item-more {
+			display: none;
+		}
+
+		&__container-describe {
+			margin: 0;
+			width: 300px;
+			height: 50px;
+
+			.portfolio__item-caption {
+				margin-bottom: 5px;
+			}
+		}
+	}
+}

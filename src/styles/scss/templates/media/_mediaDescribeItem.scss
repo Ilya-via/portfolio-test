@@ -1,0 +1,176 @@
+@media (max-width: 1220px) {
+	.portfolio-describe-item {
+		&__container-for-buttons {
+			a {
+				width: 360px;
+			}
+
+			.portfolio-describe-item__arrow-left {
+				left: 7px;
+			}
+
+			.portfolio-describe-item__arrow-right {
+				right: 7px;
+			}
+		}
+
+		&__organic-food-website-development-background-1 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/banner-2_tablet.png) no-repeat center center;
+			height: 415px;
+		}
+
+		&__organic-food-website-development-background-2 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/color_img_tablet.png) no-repeat center center;
+			height: 450px;
+		}
+
+		&__organic-food-website-development-background-3 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_why_are_we_tablet.png) no-repeat center center;
+			height: 460px;
+		}
+
+		&__organic-food-website-development-background-4 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_catalog_tablet.png) no-repeat center center;
+			height: 1714px;
+		}
+
+		&__organic-food-website-development-background-5 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_FAQ_tablet.png) no-repeat center center;
+			height: 818px;
+		}
+
+		&__organic-food-website-development-background-6 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_reviews_tablet.png) no-repeat center center;
+			height: 658px;
+		}
+
+		&__organic-food-website-development-background-7 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_feedback_form_tablet.png) no-repeat center center;
+			height: 698px;
+		}
+
+		&__organic-food-website-development-background-8 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_basket1_tablet.png) no-repeat center center;
+			height: 750px;
+		}
+
+		&__organic-food-website-development-background-9 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_basket2_tablet.png) no-repeat center center;
+			height: 944px;
+		}
+
+		&__organic-food-website-development-background-10 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_basket3_tablet.png) no-repeat center center;
+			height: 724px;
+		}
+
+		&__organic-food-website-development-background-11 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_pop_up_tablet.png) no-repeat center center;
+			height: 1165px;
+		}
+
+		&__organic-food-website-development-background-12 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/image_food_blog_tablet.png) no-repeat center center;
+			height: 695px;
+		}
+
+		&__organic-food-website-development-background-13 {
+			background: url(../styles/images/describeItems/organic-food-website-development/tablet/preview12_tablet.png) no-repeat center center;
+			height: 756px;
+		}
+	}
+}
+
+
+@media (max-width: 760px) {
+	.portfolio-describe-item {
+
+		&__container-for-buttons {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 85px;
+
+			a {
+				font-size: 14px;
+				text-align: center;
+				margin-bottom: 10px;
+				width: 300px;
+				padding: 0 25px;
+			}
+		}
+
+		&__image {
+			margin: 10px -15px;
+		}
+
+		&__organic-food-website-development-background-1 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/banner-2_phone.png) no-repeat center center;
+			height: 625px;
+		}
+
+		&__organic-food-website-development-background-2 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/color_img_phone.png) no-repeat center center;
+			height: 180px;
+		}
+
+		&__organic-food-website-development-background-3 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_why_are_we_phone.png) no-repeat center center;
+			height: 1186px;
+		}
+
+		&__organic-food-website-development-background-4 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_catalog_phone.png) no-repeat center center;
+			height: 1102px;
+		}
+
+		&__organic-food-website-development-background-5 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_FAQ_phone.png) no-repeat center center;
+			height: 922px;
+		}
+
+		&__organic-food-website-development-background-6 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_reviews_phone.png) no-repeat center center;
+			height: 900px;
+		}
+
+		&__organic-food-website-development-background-7 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_feedback_form_phone.png) no-repeat center center;
+			height: 800px;
+		}
+
+		&__organic-food-website-development-background-8 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_basket1_phone.png) no-repeat center center;
+			height: 676px;
+		}
+
+		&__organic-food-website-development-background-9 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_basket2_phone.png) no-repeat center center;
+			height: 1080px;
+		}
+
+		&__organic-food-website-development-background-10 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_basket3_phone.png) no-repeat center center;
+			height: 676px;
+		}
+
+		&__organic-food-website-development-background-11 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_pop_up_phone.png) no-repeat center center;
+			height: 1785px;
+		}
+
+		&__organic-food-website-development-background-12 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/image_food_blog_phone.png) no-repeat center center;
+			height: 1060px;
+		}
+
+		&__organic-food-website-development-background-13 {
+			background: url(../styles/images/describeItems/organic-food-website-development/phone/preview12_phone.png) no-repeat center center;
+			height: 256px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.portfolio-describe-item {}
+}
